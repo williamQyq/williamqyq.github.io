@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: 'Prompt', sans-serif;
+  color: white;
+  background: #202731;
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 4rem;
+}
+h2{
+  font-size: 3rem;
+}
+p {
+  font-size: 0.8rem;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding-top: 100px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
